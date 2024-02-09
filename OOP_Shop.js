@@ -403,6 +403,7 @@ const main = () => {
   for (let i = 0; i < customer1.orders.length; i++) {
     console.log("คำสั่งซื้อที่ : " + (i + 1));
     customer1.orders[i].printDetail();
+    console.log("---------------------------");
   }
 };
 
